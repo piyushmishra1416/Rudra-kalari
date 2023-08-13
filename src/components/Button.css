@@ -1,0 +1,38 @@
+/* Button.css */
+.fiery-warrior-button {
+   background: linear-gradient(135deg, #ff5722, #ff9800); /* Vibrant gradient */
+   color: #fff;
+   border: none;
+   padding: 10px 20px;
+   border-radius: 8px;
+   font-size: 18px;
+   font-weight: bold;
+   cursor: pointer;
+   transition: transform 0.2s, box-shadow 0.2s;
+   box-shadow: 0 4px 6px rgba(255, 87, 34, 0.2); /* Subtle shadow for 3D effect */
+ }
+ 
+ .fiery-warrior-button:hover {
+   transform: translateY(-2px); /* Slight lift on hover */
+   box-shadow: 0 6px 10px rgba(255, 87, 34, 0.4); /* Bigger shadow on hover */
+ }
+ 
+ .button-text {
+   position: relative;
+   z-index: 1;
+ }
+
+ .text-gradient {
+   background: linear-gradient(135deg, #ff5722, #ff9800); /* Vibrant gradient */
+   background-clip: text;
+   -webkit-background-clip: text;
+   color: transparent; /* Make the text transparent */
+   font-weight: bold;
+   transition: transform 0.2s;
+ }
+ 
+ .text-gradient:hover {
+   transform: translateY(-2px); /* Slight lift on hover */
+ }
+ 
+ 

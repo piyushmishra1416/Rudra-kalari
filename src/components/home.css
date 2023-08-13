@@ -1,0 +1,14 @@
+
+/* fonts.css */
+@font-face {
+   font-family: Preahvihear;
+   src: url("../assets/kalaripayattu/Preahvihear-Regular.ttf") format("truetype");
+ }
+
+ 
+ /* Or, if you want to apply the custom font only to specific elements */
+.font {
+   font-family: Preahvihear;
+   
+ }
+ 

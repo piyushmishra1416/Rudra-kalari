@@ -1,10 +1,11 @@
 import React from "react";
 import "/Users/piyush/course-selling -app/course-selling-app/src/components/home.css";
 import FieryWarriorButton from "./Button";
+import "/Users/piyush/course-selling -app/course-selling-app/src/components/home.css";
 
 function Home() {
   return (
-    <>
+    <div>
       <section className="relative home">
         <img
           src="src/assets/kalaripayattu/bg-home (1).png"
@@ -19,39 +20,24 @@ function Home() {
         </div>
       </section>
       <section class="p-6 bg-gray-100">
+        <div>
         <p class="text-lg font-semibold mb-4">
-          The kalarippayattu martial art is also simply known as ‘Kalari’ which
-          means battlefield. It means the ‘practice I the art of the
-          battlefield’. The practise of kalarippayattu was said to be originated
-          from the ‘dhanur Veda.
+        Kalaripayattu is an ancient Indian martial art form that originated in the state of Kerala. It is considered one of the oldest fighting systems in existence and has a history that dates back over 3,000 years. Kalaripayattu encompasses a comprehensive training system that includes physical conditioning, flexibility exercises, strikes, kicks, grappling, weaponry, and healing techniques.
         </p>
         <p class="mb-4">
-          Now, wait, everyone knows ‘Dhanur Veda’ is the science of archery but
-          as the rules of Vedas go, “Dhanur Veda” includes all forms of fighting
-          arts. Although Dhanur Veda seems to have distinct battlefield
-          strategies, it mostly focused on martial techniques and practices.
+        The practice of Kalaripayattu involves intricate and fluid movements, often mimicking the grace of animals and elements found in nature. Kalaripayattu techniques are classified into various levels, with students progressing from basic stances and strikes to more advanced forms and weaponry. Traditional weapons such as swords, shields, daggers, and staffs are integral to the art and are taught alongside the empty-handed techniques.
         </p>
         <p class="mb-4">
-          We also find the word ‘Kalari’ in ancient texts like ‘agam’ and
-          ‘puram’ when describing the combat styles and the weapons used for
-          war. Sangam literature also describes the art of kalarippayattu and
-          the usage of spears, swords, shields, and silambam. The kalaripayattu
-          teaches the 108 most vital points in the human body. But they taught
-          only this technique to promising and incredibly talented fighters as
-          even the slightest wrong move can kill a person, this is called the
-          marmam technique, and these unknown death points in our body are
-          called marmam points. Rigveda mentions that Lord Indra defeated the
-          demon Vritasura using one of the marmam techniques of Kalari.
+        In recent times, Kalaripayattu has gained recognition not only as a martial art but also as a cultural practice and a form of physical exercise. It has influenced the development of various other martial arts and performance arts forms, both within India and abroad.
         </p>
-        <p>
-          During the 6th century, one of the well-known ayurvedic practitioners
-          called sage sushrutha did immense research and identified the 108
-          vital points of the human body and compiled it in his book “Sushruta
-          Samhita”. Out of these, 94 points were considered deadly and lethal if
-          got properly struck with a fist or a stick.
-        </p>
+        </div>
       </section>
-      <p>KALARI Training</p>
+
+      <section>
+      <div className="font">
+        <p className="text-center text-3xl  italic">Kalari Training</p>
+      </div>
+      </section>
       <section className="flex flex-wrap justify-center items-center bg-orange-300 p-8">
         <div className="p-4 text-center relative group">
           <img
@@ -63,8 +49,6 @@ function Home() {
           <div className="overlay absolute inset-0 rounded-lg bg-black bg-opacity-40 transition-opacity duration-300 opacity-0 group-hover:opacity-100"></div>
         </div>
 
-        {/* Repeat the same structure for other items */}
-
         <div className="p-4 text-center relative group">
           <img
             src="src/assets/artforms/kolthari.jpg"
@@ -74,9 +58,6 @@ function Home() {
           <p className="mt-2 text-lg font-semibold text-gray-800">KOLTHARI</p>
           <div className="overlay absolute inset-0 rounded-lg bg-black bg-opacity-40 transition-opacity duration-300 opacity-0 group-hover:opacity-100"></div>
         </div>
-
-        {/* Repeat the same structure for other items */}
-
         <div className="p-4 text-center relative group">
           <img
             src="src/assets/artforms/ankathari.jpeg"
@@ -86,8 +67,6 @@ function Home() {
           <p className="mt-2 text-lg font-semibold text-gray-800">KANTHARI</p>
           <div className="overlay absolute inset-0 rounded-lg bg-black bg-opacity-40 transition-opacity duration-300 opacity-0 group-hover:opacity-100"></div>
         </div>
-
-        {/* Repeat the same structure for other items */}
 
         <div className="p-4 text-center relative group">
           <img
@@ -99,9 +78,7 @@ function Home() {
           <div className="overlay absolute inset-0 rounded-lg bg-black bg-opacity-40 transition-opacity duration-300 opacity-0 group-hover:opacity-100"></div>
         </div>
       </section>
-
-     
-    </>
+    </div>
   );
 }
 

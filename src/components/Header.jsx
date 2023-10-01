@@ -3,7 +3,7 @@ import { Link } from  "react-router-dom"
 
 export const Header = () => {
   return (
-    <nav className=" w-full h-20 flex items-center justify-between px-6 relative">
+    <nav className=" w-full h-20 flex items-center justify-between px-6 relative"  >
       <img
         src="src/assets/kalaripayattu/kalari-symbol-250-black.png"
         alt="logo"

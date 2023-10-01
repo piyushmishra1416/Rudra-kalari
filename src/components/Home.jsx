@@ -1,7 +1,6 @@
 import React from "react";
-import "/Users/piyush/course-selling -app/course-selling-app/src/components/home.css";
 import FieryWarriorButton from "./Button";
-import "/Users/piyush/course-selling -app/course-selling-app/src/components/home.css";
+
 
 function Home() {
   return (

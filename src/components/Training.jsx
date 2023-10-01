@@ -1,5 +1,5 @@
 import React from 'react'
-import kalarivideo2 from "/Users/piyush/course-selling -app/course-selling-app/src/assets/artforms/kalarivideo2.mp4"
+import kalarivideo2 from "../assets/artforms/kalarivideo2.mp4"
 import  { useRef, useEffect } from 'react';
 
 function Training() {

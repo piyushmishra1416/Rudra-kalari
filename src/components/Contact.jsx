@@ -1,6 +1,6 @@
 import React from 'react'
-import kalarivideo2 from "/Users/piyush/course-selling -app/course-selling-app/src/assets/artforms/kalarivideo2.mp4"
-import LearnKalaripayattu from "/Users/piyush/course-selling -app/course-selling-app/src/assets/artforms/LearnKalaripayattu.mp4"
+import kalarivideo2 from "../assets/artforms/kalarivideo2.mp4"
+
 
 function Contact() {
   return (

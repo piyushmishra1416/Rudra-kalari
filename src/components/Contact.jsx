@@ -1,5 +1,5 @@
 import React from 'react'
-import kalarivideo2 from "../assets/artforms/kalarivideo2.mp4"
+import kalarivideo2 from "../assets/kalarivideo2.mp4"
 
 
 function Contact() {

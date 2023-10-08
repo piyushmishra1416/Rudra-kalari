@@ -1,7 +1,10 @@
 import React from 'react'
-import kalarivideo2 from "../assets/artforms/kalarivideo2.mp4"
+import kalarivideo2 from "../assets/kalarivideo2.mp4"
 import  { useRef, useEffect } from 'react';
-
+import meythari from '../assets/meythari.jpg'
+import ank1 from '../assets/ank1.jpg'
+import verumkai from '../assets/verumkai.jpg'
+import kolthari from '../assets/kolthari.jpg'
 function Training() {
 
     const secondDivRef = useRef(null);
@@ -57,7 +60,7 @@ bg-opacity-10  inset-0 mt-20 mr-16 ">
        time learning it well.
      </p>
      <img
-       src="src/assets/artforms/Meythozhil_(Meypayattu)-20022020134802.jpg"
+       src={meythari}
        alt="meythari"
        className="w-1/3 mr-8 items center"
      />
@@ -71,7 +74,7 @@ bg-opacity-10  inset-0 mt-20 mr-16 ">
        whatever stick he has in possession to resist all kinds of attacks,
        make counter-attacks and overpower enemies.
      </p>
-     <img src="src/assets/artforms/kolthari.jpg" alt="kolthari" className="w-1/3" />
+     <img src={kolthari} alt="kolthari" className="w-1/3" />
    </div>
 
    <div className='h-screen flex items-center inset-0 text-white z-20 space-x-4' ref={thirdDivRef}>
@@ -84,7 +87,7 @@ bg-opacity-10  inset-0 mt-20 mr-16 ">
        keen presence of mind are necessary for the mastering the use of the
        sword. Other weapons include the ribbon sword (urumi) and the spear.
      </p>
-     <img src="src/assets/artforms/ankathari.jpeg" alt="ankathari"  className="w-1/3"/>
+     <img src={ank1} alt="ankathari"  className="w-1/3"/>
    </div>
    <div className='h-screen flex items-center inset-0 text-white z-20  space-x-4 ' ref={fourthDivRef}>
      <p className="w-2/3 items-center p-32">
@@ -98,7 +101,7 @@ bg-opacity-10  inset-0 mt-20 mr-16 ">
        self-defence and never for attack.
      </p>
      <img
-       src="src/assets/artforms/verumkai.jpg"
+       src={verumkai}
        alt="verumkai" className="w-1/3"
      />
    </div>

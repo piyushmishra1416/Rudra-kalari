@@ -1,11 +1,20 @@
 import React from "react";
 import { Link } from  "react-router-dom"
+import logo from '../assets/logo.png'
 
 export const Header = () => {
+
+  const navStyle = {
+    position: "sticky",
+    top: 0,
+    backgroundColor: "white",
+    zIndex: 50,
+  };
   return (
-    <nav className=" w-full h-20 flex items-center justify-between px-6 relative"  >
+    
+    <nav  className=" w-full h-20 flex items-center justify-between  px-6 top-0 bg-white sticky z-50"  >
       <img
-        src="src/assets/kalaripayattu/kalari-symbol-250-black.png"
+        src={logo}
         alt="logo"
         className="h-16 flex "
       />
@@ -27,6 +36,7 @@ export const Header = () => {
         </li>
       </ul>
     </nav>
+
   );
 };
 
